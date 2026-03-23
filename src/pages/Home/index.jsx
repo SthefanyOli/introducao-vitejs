@@ -8,11 +8,13 @@ function Home() {
             <div className={styles.containerItens}>
                 <h2>Exemplos</h2>
 
-                <Link to= "/exemplo/1"> Exemplo 1 - Componente básico</Link>
-                <Link to= "/exemplo/2"> Exemplo 2 - Uso de estilização com module</Link>
+                <Link to= "/exemplo/01"> Exemplo 1 - Componente básico</Link>
+                <Link to= "/exemplo/02"> Exemplo 2 - Uso de estilização com module</Link>
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
+
+                  <Link to= "/atividade/01"> Atividade 1 - Uso CSS </Link>
             </div>
         </div>
     )
