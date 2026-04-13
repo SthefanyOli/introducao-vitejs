@@ -10,6 +10,7 @@ function Home() {
 
                 <Link to= "/exemplo/01"> Exemplo 1 - Componente básico</Link>
                 <Link to= "/exemplo/02"> Exemplo 2 - Uso de estilização com module</Link>
+                 <Link to= "/exemplo/03"> Exemplo 3 - Contador </Link>
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
