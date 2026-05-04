@@ -1,6 +1,17 @@
 .container {
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
     text-align: center;
-    margin-top: 5rem;
+    font-family: sans-serif;
+}
+
+.flex_botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 20px;
 }
