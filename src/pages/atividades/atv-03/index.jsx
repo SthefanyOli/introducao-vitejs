@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Botao from './botao'; // Certifique-se que o caminho está correto
+import Botao from './botao'; 
 import styles from './index.module.css';
 
 function Atividade03() {
@@ -16,7 +16,7 @@ function Atividade03() {
             <h1>Atividade 03 - Uso de componentes</h1>
             <h2>Ação selecionada: {resultado}</h2>
 
-            {/* Faltava passar a prop 'acao' aqui embaixo! */}
+          
             <Botao texto="Cadastrar" aoClicar={Cadastrar} acao="Cadastrar" />
             <Botao texto="Editar" aoClicar={Editar} acao="Editar" />
             <Botao texto="Listar" aoClicar={Listar} acao="Listar" />
